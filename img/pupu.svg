@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- poop base -->
+  <path d="M55 150
+           C45 138 55 120 78 118
+           C62 110 70 92 92 92
+           C78 80 92 62 112 66
+           C110 50 132 42 145 52
+           C160 66 150 86 135 92
+           C158 96 168 116 152 128
+           C170 134 170 154 150 162
+           C132 170 94 170 75 164
+           C65 160 60 156 55 150 Z"
+        fill="#8b5a2b" stroke="#5a3a1a" stroke-width="4"
+        stroke-linejoin="round"/>
+
+  <!-- highlight -->
+  <path d="M85 78
+           C92 64 115 62 126 72
+           C136 84 126 96 112 98
+           C100 100 82 92 85 78 Z"
+        fill="#a76b37" opacity="0.85"/>
+
+  <!-- eyes -->
+  <circle cx="85" cy="130" r="7" fill="#1f1f1f"/>
+  <circle cx="125" cy="130" r="7" fill="#1f1f1f"/>
+
+  <!-- mouth -->
+  <path d="M92 145 Q105 155 118 145"
+        stroke="#1f1f1f" stroke-width="6" fill="none"
+        stroke-linecap="round"/>
+
+  <!-- little cheeks -->
+  <circle cx="73" cy="142" r="6" fill="#d28a7c" opacity="0.8"/>
+  <circle cx="137" cy="142" r="6" fill="#d28a7c" opacity="0.8"/>
+</svg>

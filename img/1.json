@@ -1,0 +1,15 @@
+{
+  "name": "Charizard #1",
+  "description": "A powerful fire pokemon!",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0003.png",
+  "attributes": [
+    {
+      "trait_type": "cool",
+      "value": 50
+    },
+    {
+      "trait_type": "element",
+      "value": "fire"
+    }
+  ]
+}
