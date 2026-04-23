@@ -8,3 +8,6 @@ broadcast/
 
 # Docs
 docs/
+
+# GitHub repo config
+.github/
