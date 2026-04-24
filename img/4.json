@@ -1,35 +1,35 @@
 {
-  "name": "Squirtle",
-  "description": "A water-type Pokemon NFT with a calm shell and strong defensive instincts.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0007.png",
+  "name": "Charmander",
+  "description": "A fire-type Pokemon NFT with the classic Kanto starter spirit.",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0004.png",
   "attributes": [
     {
       "trait_type": "Personality",
-      "value": "Calm"
+      "value": "Brave"
     },
     {
       "trait_type": "Element",
-      "value": "Water"
+      "value": "Fire"
     },
     {
       "trait_type": "Attack",
-      "value": 48
+      "value": 52
     },
     {
       "trait_type": "Special Attack",
-      "value": 50
+      "value": 60
     },
     {
       "trait_type": "Defense",
-      "value": 65
+      "value": 43
     },
     {
       "trait_type": "Special Defense",
-      "value": 64
+      "value": 50
     },
     {
       "trait_type": "Speed",
-      "value": 43
+      "value": 65
     }
   ]
 }

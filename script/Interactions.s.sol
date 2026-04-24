@@ -17,6 +17,18 @@ contract MintBasicNft is Script {
     }
 }
 
+contract UpdateBasicNftBaseUri is Script {
+    function run() external {
+        string memory newBaseTokenUri = vm.envString("NEW_IPFS_BASE_TOKEN_URI");
+        address mostRecentDeployment =
+            DevOpsTools.get_most_recent_deployment("BasicNft", block.chainid);
+
+        vm.startBroadcast();
+        BasicNft(mostRecentDeployment).setBaseTokenUri(newBaseTokenUri);
+        vm.stopBroadcast();
+    }
+}
+
 contract MintMoodNft is Script {
     function run() external {
         address mostRecentDeployment =
