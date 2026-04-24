@@ -1,4 +1,6 @@
-After completing all exercises, the main files in this project will be used like this:
+This repository is intended to serve as a continuation of the `QuPepe/blockchain` teaching materials.
+
+After completing the NFT continuation exercises, the main files in this project will be used like this:
 
 # Contracts
 + `/src/BasicNft.sol`: A basic ERC-721 NFT using an IPFS base token URI.
@@ -18,8 +20,10 @@ After completing all exercises, the main files in this project will be used like
 + `/img/happy.svg`, `/img/sad.svg`: SVG images used by `MoodNft`.
 
 # Exercises
-+ `/1_Exercise1.md`: Build, test, and deploy `BasicNft`.
-+ `/2_Exercise2.md`: Mint and inspect `BasicNft` on Anvil.
-+ `/3_Exercise3.md`: Build, test, and deploy `MoodNft`.
-+ `/4_Exercise4.md`: Mint and flip `MoodNft` on Anvil.
++ `/5_Exercise5.md`: Build, test, deploy, mint, and inspect `BasicNft`.
++ `/6_Exercise6.md`: Build, test, deploy, mint, and flip `MoodNft`.
 
+# Lecture Notes
++ `/lecture/NFT_Metadata_and_IPFS.md`: Introduces NFT metadata and IPFS-based storage.
++ `/lecture/Onchain_NFT_Metadata.md`: Explains onchain metadata and Base64-encoded NFT responses.
++ `/lecture/Static_vs_Dynamic_NFTs.md`: Compares static NFTs and dynamic NFTs.

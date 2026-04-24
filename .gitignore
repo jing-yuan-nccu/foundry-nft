@@ -11,3 +11,6 @@ docs/
 
 # GitHub repo config
 .github/
+
+# Local image libraries
+img/ruby-sapphire/

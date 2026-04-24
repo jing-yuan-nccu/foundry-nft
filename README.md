@@ -1,18 +1,35 @@
-# NFT Exercises on Anvil
+# NFT Module After QuPepe Blockchain Exercises
 
-This repository is organized as a step-by-step Foundry practice project for two NFT contracts:
+This repository is organized as a continuation module for the course materials in:
+
++ [QuPepe/blockchain](https://github.com/QuPepe/blockchain)
+
+It is designed to follow the teacher's materials after the ERC-20 and ERC-721 introduction, and extends them with hands-on NFT implementation using Foundry.
+
+This repository contains two NFT contracts:
 
 + `BasicNft`: a simple ERC-721 NFT with an IPFS-based metadata URI.
 + `MoodNft`: an onchain SVG NFT whose mood can be flipped between happy and sad.
 
 All exercises in this repository are arranged for local development on `anvil`.
 
-## Exercises
-+ [Exercise 1: BasicNft Setup, Test, and Deploy](./1_Exercise1.md)
-+ [Exercise 2: Interact with BasicNft on Anvil](./2_Exercise2.md)
-+ [Exercise 3: MoodNft Setup, Test, and Deploy](./3_Exercise3.md)
-+ [Exercise 4: Interact with MoodNft on Anvil](./4_Exercise4.md)
+## Suggested Learning Order
++ Finish the core materials in [QuPepe/blockchain](https://github.com/QuPepe/blockchain)
++ Review `lecture/ERC-721_Tokens.md`
++ Review `lecture/ERC20_vs_ERC721_Comparison.md`
++ Read the NFT lecture notes in this repository
++ Complete `Exercise 5` and `Exercise 6`
+
+## Setup and Exercises
++ [Setup](./Setup.md)
++ [Exercise 5: Basic ERC-721 NFT](./5_Exercise5.md)
++ [Exercise 6: Dynamic Onchain NFT](./6_Exercise6.md)
 + [Project Structure](./Structure.md)
+
+## Lecture Notes
++ [NFT Metadata and IPFS](./lecture/NFT_Metadata_and_IPFS.md)
++ [Onchain NFT Metadata](./lecture/Onchain_NFT_Metadata.md)
++ [Static vs. Dynamic NFTs](./lecture/Static_vs_Dynamic_NFTs.md)
 
 ## Software Used in This Exercise Set
 + Solidity: [Foundry](https://book.getfoundry.sh/)
@@ -27,4 +44,3 @@ All exercises in this repository are arranged for local development on `anvil`.
   0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
   ```
 + If you restart `anvil`, you should redeploy the contracts before running mint or flip scripts again.
-
