@@ -1,35 +1,35 @@
 {
-  "name": "Squirtle",
-  "description": "A water-type Pokemon NFT with a calm shell and strong defensive instincts.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0007.png",
+  "name": "Lucario",
+  "description": "A fighting-type Pokemon NFT with disciplined focus and strong mixed offense.",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0011.png",
   "attributes": [
     {
       "trait_type": "Personality",
-      "value": "Calm"
+      "value": "Focused"
     },
     {
       "trait_type": "Element",
-      "value": "Water"
+      "value": "Fighting/Steel"
     },
     {
       "trait_type": "Attack",
-      "value": 48
+      "value": 110
     },
     {
       "trait_type": "Special Attack",
-      "value": 50
+      "value": 115
     },
     {
       "trait_type": "Defense",
-      "value": 65
+      "value": 70
     },
     {
       "trait_type": "Special Defense",
-      "value": 64
+      "value": 70
     },
     {
       "trait_type": "Speed",
-      "value": 43
+      "value": 90
     }
   ]
 }

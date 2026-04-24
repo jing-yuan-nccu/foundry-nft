@@ -1,19 +1,19 @@
 {
-  "name": "Squirtle",
-  "description": "A water-type Pokemon NFT with a calm shell and strong defensive instincts.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0007.png",
+  "name": "Pikachu",
+  "description": "An electric-type Pokemon NFT with quick reflexes and iconic offensive speed.",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0008.png",
   "attributes": [
     {
       "trait_type": "Personality",
-      "value": "Calm"
+      "value": "Cheerful"
     },
     {
       "trait_type": "Element",
-      "value": "Water"
+      "value": "Electric"
     },
     {
       "trait_type": "Attack",
-      "value": 48
+      "value": 55
     },
     {
       "trait_type": "Special Attack",
@@ -21,15 +21,15 @@
     },
     {
       "trait_type": "Defense",
-      "value": 65
+      "value": 40
     },
     {
       "trait_type": "Special Defense",
-      "value": 64
+      "value": 50
     },
     {
       "trait_type": "Speed",
-      "value": 43
+      "value": 90
     }
   ]
 }

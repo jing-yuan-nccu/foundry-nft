@@ -1,0 +1,35 @@
+{
+  "name": "Garchomp",
+  "description": "A dragon-type Pokemon NFT built for aggressive battles with elite speed and attack.",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0012.png",
+  "attributes": [
+    {
+      "trait_type": "Personality",
+      "value": "Fierce"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Dragon/Ground"
+    },
+    {
+      "trait_type": "Attack",
+      "value": 130
+    },
+    {
+      "trait_type": "Special Attack",
+      "value": 80
+    },
+    {
+      "trait_type": "Defense",
+      "value": 95
+    },
+    {
+      "trait_type": "Special Defense",
+      "value": 85
+    },
+    {
+      "trait_type": "Speed",
+      "value": 102
+    }
+  ]
+}

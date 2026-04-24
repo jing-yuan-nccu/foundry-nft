@@ -1,35 +1,35 @@
 {
-  "name": "Squirtle",
-  "description": "A water-type Pokemon NFT with a calm shell and strong defensive instincts.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0007.png",
+  "name": "Bulbasaur",
+  "description": "A grass-type Pokemon NFT with a reliable nature and balanced early-game stats.",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0001.png",
   "attributes": [
     {
       "trait_type": "Personality",
-      "value": "Calm"
+      "value": "Gentle"
     },
     {
       "trait_type": "Element",
-      "value": "Water"
+      "value": "Grass/Poison"
     },
     {
       "trait_type": "Attack",
-      "value": 48
+      "value": 49
     },
     {
       "trait_type": "Special Attack",
-      "value": 50
-    },
-    {
-      "trait_type": "Defense",
       "value": 65
     },
     {
+      "trait_type": "Defense",
+      "value": 49
+    },
+    {
       "trait_type": "Special Defense",
-      "value": 64
+      "value": 65
     },
     {
       "trait_type": "Speed",
-      "value": 43
+      "value": 45
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "name": "Gengar",
+  "description": "A ghost-type Pokemon NFT with tricky battle presence and explosive special attack.",
+  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0009.png",
+  "attributes": [
+    {
+      "trait_type": "Personality",
+      "value": "Mischievous"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Ghost/Poison"
+    },
+    {
+      "trait_type": "Attack",
+      "value": 65
+    },
+    {
+      "trait_type": "Special Attack",
+      "value": 130
+    },
+    {
+      "trait_type": "Defense",
+      "value": 60
+    },
+    {
+      "trait_type": "Special Defense",
+      "value": 75
+    },
+    {
+      "trait_type": "Speed",
+      "value": 110
+    }
+  ]
+}
