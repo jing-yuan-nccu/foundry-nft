@@ -1,6 +1,6 @@
 -include .env
 
-.PHONY: all test clean deploy fund help install snapshot format anvil zktest mint deploy-sepolia mint-sepolia
+.PHONY: all test clean deploy fund help install snapshot format anvil zktest mint deploy-sepolia mint-sepolia update-base-uri
 
 DEFAULT_ANVIL_KEY := 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 DEFAULT_ZKSYNC_LOCAL_KEY := 0x7726827caac94a7f9e1b160f7ea819f172f7b6f9d2a97f992c38edeab82d4110
@@ -44,6 +44,10 @@ deploy:
 
 mint:
 	@forge script script/Interactions.s.sol:MintBasicNft ${NETWORK_ARGS}
+
+update-base-uri:
+	@if [ -z "$(NEW_IPFS_BASE_TOKEN_URI)" ]; then echo "NEW_IPFS_BASE_TOKEN_URI is required. Usage: make update-base-uri NEW_IPFS_BASE_TOKEN_URI=ipfs://<CID>/"; exit 1; fi
+	@NEW_IPFS_BASE_TOKEN_URI=$(NEW_IPFS_BASE_TOKEN_URI) forge script script/Interactions.s.sol:UpdateBasicNftBaseUri $(NETWORK_ARGS)
 
 deploy-sepolia:
 	@forge script script/DeployBasicNft.s.sol:DeployBasicNft $(SEPOLIA_ARGS)
