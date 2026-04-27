@@ -24,6 +24,7 @@ All exercises in this repository are arranged for local development on `anvil`.
 + [Exercise 5: Basic ERC-721 NFT](./5_Exercise5.md)
 + [Exercise 6: Dynamic Onchain NFT](./6_Exercise6.md)
 + [Project Structure](./Structure.md)
++ After the local `anvil` exercises, you can extend the same scripts and Makefile flow to `Sepolia` using the environment variables described in [Setup](./Setup.md).
 
 ## Lecture Notes
 + [NFT Metadata and IPFS](./lecture/NFT_Metadata_and_IPFS.md)
