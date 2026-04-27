@@ -1,7 +1,7 @@
 {
   "name": "Charmander",
   "description": "A fire-type Pokemon NFT with the classic Kanto starter spirit.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0004.png",
+  "image": "ipfs://QmbEwQRkWU5onkzK2VFpaXQ1PGYCby7da17JsNJfi7MCj2/0004.png",
   "attributes": [
     {
       "trait_type": "Personality",
@@ -10,6 +10,10 @@
     {
       "trait_type": "Element",
       "value": "Fire"
+    },
+    {
+      "trait_type": "HP",
+      "value": 39
     },
     {
       "trait_type": "Attack",

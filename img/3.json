@@ -1,7 +1,7 @@
 {
   "name": "Bulbasaur",
   "description": "A grass-type Pokemon NFT with a reliable nature and balanced early-game stats.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0001.png",
+  "image": "ipfs://QmbEwQRkWU5onkzK2VFpaXQ1PGYCby7da17JsNJfi7MCj2/0001.png",
   "attributes": [
     {
       "trait_type": "Personality",
@@ -10,6 +10,10 @@
     {
       "trait_type": "Element",
       "value": "Grass/Poison"
+    },
+    {
+      "trait_type": "HP",
+      "value": 45
     },
     {
       "trait_type": "Attack",

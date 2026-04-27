@@ -7,8 +7,11 @@ This exercise is designed as a continuation of the materials in:
 It should be studied after:
 
 + `Exercise 4: Create Your Own Tokens`
-+ `lecture/ERC-721_Tokens.md`
-+ `lecture/ERC20_vs_ERC721_Comparison.md`
++ [ERC-721_Tokens.md](https://github.com/QuPepe/blockchain/blob/main/lecture/ERC-721_Tokens.md) (in `QuPepe/blockchain`)
++ [ERC20_vs_ERC721_Comparison.md](https://github.com/QuPepe/blockchain/blob/main/lecture/ERC20_vs_ERC721_Comparison.md) (in `QuPepe/blockchain`)
++ [`lecture/NFT_Metadata_and_IPFS.md`](./lecture/NFT_Metadata_and_IPFS.md)
++ [`lecture/Static_vs_Dynamic_NFTs.md`](./lecture/Static_vs_Dynamic_NFTs.md)
++ [`lecture/ERC165_and_ERC4906.md`](./lecture/ERC165_and_ERC4906.md)
 
 ## Goal
 + Build and test a basic ERC-721 NFT contract with Foundry.

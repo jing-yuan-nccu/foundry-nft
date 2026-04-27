@@ -1,7 +1,7 @@
 {
   "name": "Pikachu",
   "description": "An electric-type Pokemon NFT with quick reflexes and iconic offensive speed.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0008.png",
+  "image": "ipfs://QmbEwQRkWU5onkzK2VFpaXQ1PGYCby7da17JsNJfi7MCj2/0008.png",
   "attributes": [
     {
       "trait_type": "Personality",
@@ -10,6 +10,10 @@
     {
       "trait_type": "Element",
       "value": "Electric"
+    },
+    {
+      "trait_type": "HP",
+      "value": 35
     },
     {
       "trait_type": "Attack",

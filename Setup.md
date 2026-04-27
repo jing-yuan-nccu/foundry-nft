@@ -95,7 +95,7 @@ If students have already completed the teacher's earlier materials, most of the 
   ```
 
 ## Install Project Dependencies
-+ This project uses Foundry libraries as Git submodules.
++ This project keeps its Foundry libraries in the repository as Git submodules.
 + Initialize and download them after cloning:
   ```bash
   git submodule update --init --recursive
@@ -113,6 +113,11 @@ If students have already completed the teacher's earlier materials, most of the 
 + `foundry-devops`
 + locked to tag `0.4.0`
 + If you want the exact locked dependency versions, keep `foundry.lock` and the Git submodules unchanged.
++
+## Do Not Mix Dependency Installation Methods
++ For this teaching repository, prefer the Git submodule workflow above.
++ Do not run `forge install` unless you intentionally want to change the dependency layout or versions.
++ If students all use `git submodule update --init --recursive`, the project structure will stay consistent across machines.
 
 ## Build the Project
 + Run:
@@ -167,6 +172,7 @@ If students have already completed the teacher's earlier materials, most of the 
   make flipMoodNft TOKEN_ID=0
   ```
 + If you are on Windows, run these from `Git Bash`, not plain PowerShell.
++ The `install` target in the `Makefile` uses the same submodule-based dependency setup described above.
 
 ## Optional Environment Variables
 + If you want to deploy `BasicNft` with your own IPFS metadata folder:
@@ -190,6 +196,11 @@ If students have already completed the teacher's earlier materials, most of the 
   ```bash
   git submodule update --init --recursive
   ```
++ `forge install` changed the contents of your `lib/` folder unexpectedly
++ Re-sync the repository dependencies with:
++   ```bash
++   git submodule update --init --recursive
++   ```
 + `TOKEN_ID not found`
 + Pass it explicitly:
   ```bash

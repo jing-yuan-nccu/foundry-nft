@@ -1,7 +1,7 @@
 {
   "name": "Lucario",
   "description": "A fighting-type Pokemon NFT with disciplined focus and strong mixed offense.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0011.png",
+  "image": "ipfs://QmbEwQRkWU5onkzK2VFpaXQ1PGYCby7da17JsNJfi7MCj2/0011.png",
   "attributes": [
     {
       "trait_type": "Personality",
@@ -10,6 +10,10 @@
     {
       "trait_type": "Element",
       "value": "Fighting/Steel"
+    },
+    {
+      "trait_type": "HP",
+      "value": 70
     },
     {
       "trait_type": "Attack",

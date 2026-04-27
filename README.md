@@ -15,8 +15,7 @@ All exercises in this repository are arranged for local development on `anvil`.
 
 ## Suggested Learning Order
 + Finish the core materials in [QuPepe/blockchain](https://github.com/QuPepe/blockchain)
-+ Review `lecture/ERC-721_Tokens.md`
-+ Review `lecture/ERC20_vs_ERC721_Comparison.md`
++ Review the teacher's ERC-721 and ERC-20 vs. ERC-721 notes from the earlier `QuPepe/blockchain` materials
 + Read the NFT lecture notes in this repository
 + Complete `Exercise 5` and `Exercise 6`
 
@@ -30,6 +29,7 @@ All exercises in this repository are arranged for local development on `anvil`.
 + [NFT Metadata and IPFS](./lecture/NFT_Metadata_and_IPFS.md)
 + [Onchain NFT Metadata](./lecture/Onchain_NFT_Metadata.md)
 + [Static vs. Dynamic NFTs](./lecture/Static_vs_Dynamic_NFTs.md)
++ [ERC165 and ERC4906](./lecture/ERC165_and_ERC4906.md)
 
 ## Software Used in This Exercise Set
 + Solidity: [Foundry](https://book.getfoundry.sh/)

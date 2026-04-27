@@ -16,7 +16,7 @@ After completing the NFT continuation exercises, the main files in this project 
 + `/test/MoodNftTest.t.sol`: Tests for `MoodNft`.
 
 # Assets
-+ `/img/0.json`, `/img/1.json`, `/img/2.json`: Example metadata files for `BasicNft`.
++ `/img/0.json` to `/img/9.json`: Example metadata files for `BasicNft`.
 + `/img/happy.svg`, `/img/sad.svg`: SVG images used by `MoodNft`.
 
 # Exercises
@@ -27,3 +27,4 @@ After completing the NFT continuation exercises, the main files in this project 
 + `/lecture/NFT_Metadata_and_IPFS.md`: Introduces NFT metadata and IPFS-based storage.
 + `/lecture/Onchain_NFT_Metadata.md`: Explains onchain metadata and Base64-encoded NFT responses.
 + `/lecture/Static_vs_Dynamic_NFTs.md`: Compares static NFTs and dynamic NFTs.
++ `/lecture/ERC165_and_ERC4906.md`: Explains interface detection and metadata update signaling for NFTs.

@@ -1,7 +1,7 @@
 {
   "name": "Charizard",
   "description": "A powerful fire-type Pokemon NFT known for its high special attack and speed.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0006.png",
+  "image": "ipfs://QmbEwQRkWU5onkzK2VFpaXQ1PGYCby7da17JsNJfi7MCj2/0006.png",
   "attributes": [
     {
       "trait_type": "Personality",
@@ -10,6 +10,10 @@
     {
       "trait_type": "Element",
       "value": "Fire/Flying"
+    },
+    {
+      "trait_type": "HP",
+      "value": 78
     },
     {
       "trait_type": "Attack",

@@ -7,9 +7,10 @@ This exercise is designed as a continuation of the materials in:
 It should be studied after:
 
 + `Exercise 5: Basic ERC-721 NFT`
-+ `lecture/ERC-721_Tokens.md`
-+ `lecture/ERC20_vs_ERC721_Comparison.md`
-+ `lecture/Static_vs_Dynamic_NFTs.md`
++ [ERC-721_Tokens.md](https://github.com/QuPepe/blockchain/blob/main/lecture/ERC-721_Tokens.md) (in `QuPepe/blockchain`)
++ [ERC20_vs_ERC721_Comparison.md](https://github.com/QuPepe/blockchain/blob/main/lecture/ERC20_vs_ERC721_Comparison.md) (in `QuPepe/blockchain`)
++ [`lecture/Static_vs_Dynamic_NFTs.md`](./lecture/Static_vs_Dynamic_NFTs.md)
++ [`lecture/Onchain_NFT_Metadata.md`](./lecture/Onchain_NFT_Metadata.md)
 
 ## Goal
 + Build and test a dynamic NFT contract.

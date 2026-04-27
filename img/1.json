@@ -1,7 +1,7 @@
 {
   "name": "Venusaur",
   "description": "A fully evolved grass-type Pokemon NFT with strong balanced battle stats.",
-  "image": "ipfs://QmVkNttWoVLkfgBNQthakYAL14f5QqoAdwCExXzatnbs9r/0003.png",
+  "image": "ipfs://QmbEwQRkWU5onkzK2VFpaXQ1PGYCby7da17JsNJfi7MCj2/0003.png",
   "attributes": [
     {
       "trait_type": "Personality",
@@ -10,6 +10,10 @@
     {
       "trait_type": "Element",
       "value": "Grass/Poison"
+    },
+    {
+      "trait_type": "HP",
+      "value": 80
     },
     {
       "trait_type": "Attack",
