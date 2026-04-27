@@ -11,7 +11,7 @@ contract BasicNft is ERC721, Ownable, IERC4906 {
     uint256 private s_tokenCounter;
     string private s_baseTokenUri;
 
-    constructor(string memory initialBaseTokenUri) ERC721("Charizard", "006") Ownable(msg.sender) {
+    constructor(string memory initialBaseTokenUri) ERC721("Pokemon Collection", "PKMN") Ownable(msg.sender) {
         s_tokenCounter = 0;
         s_baseTokenUri = initialBaseTokenUri;
     }

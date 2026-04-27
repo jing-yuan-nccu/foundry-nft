@@ -18,11 +18,11 @@ contract BasicNftTest is Test {
     }
 
     function testNftNameIsCorrect() public view {
-        assertEq(basicNft.name(), "Charizard");
+        assertEq(basicNft.name(), "Pokemon Collection");
     }
 
     function testNftSymbolIsCorrect() public view {
-        assertEq(basicNft.symbol(), "006");
+        assertEq(basicNft.symbol(), "PKMN");
     }
 
     function testCanMintAndHaveBalance() public {
