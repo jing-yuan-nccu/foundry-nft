@@ -1,0 +1,9 @@
+{
+  "name": "Sepolia Quest Card - ERC721",
+  "description": "This card evolved after the student deployed and verified an ERC721 contract on Sepolia.",
+  "image": "http://127.0.0.1:5173/quest/assets/erc721.svg",
+  "attributes": [
+    { "trait_type": "Quest Stage", "value": "Stage 2" },
+    { "trait_type": "Completed Challenge", "value": "ERC721" }
+  ]
+}

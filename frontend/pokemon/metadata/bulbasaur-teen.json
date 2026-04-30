@@ -1,0 +1,10 @@
+{
+  "name": "Bulbasaur - Teen",
+  "description": "A growing grass Pokemon from the Growth Gacha collection.",
+  "image": "http://127.0.0.1:5173/pokemon/assets/bulbasaur-teen.svg",
+  "attributes": [
+    { "trait_type": "Species", "value": "Bulbasaur" },
+    { "trait_type": "Stage", "value": "Teen" },
+    { "trait_type": "Element", "value": "Grass" }
+  ]
+}

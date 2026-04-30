@@ -15,3 +15,9 @@ lecture/walkthroughs/
 
 # Local image libraries
 img/ruby-sapphire/
+
+# Local quest submission database
+frontend/data/submissions.json
+
+# Local frontend server logs
+frontend/*.log

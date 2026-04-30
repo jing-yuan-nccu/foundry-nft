@@ -20,13 +20,14 @@ If students have already completed the teacher's earlier materials, most of the 
 + Git: latest stable version
 + Foundry: `1.5.1` or newer
 + Solidity compiler: no separate installation required
-+ Node.js: not required for the current project
++ Node.js: optional for the frontend demo and Sepolia quest verifier
 
-## Why Node.js Is Not Required Here
+## When Node.js Is Required
 
-+ This repository currently uses Foundry only.
-+ There is no frontend app and no npm package in this project.
-+ So you do not need `node` or `npm` to build, test, deploy, or interact with the contracts.
++ The core Foundry exercises do not require Node.js.
++ The optional frontend and Sepolia Quest verifier use `node frontend/server.js`.
++ There is still no npm package or install step; the local server uses Node.js built-in modules.
++ If you only build, test, deploy, or interact with contracts, Foundry is enough.
 
 ## Install Git
 
@@ -155,6 +156,10 @@ If students have already completed the teacher's earlier materials, most of the 
   ```bash
   forge test --match-contract MoodNftTest -vv
   ```
++ Run only the optional Sepolia quest tests:
+  ```bash
+  forge test --match-contract LearningQuestTest -vv
+  ```
 
 ## Start a Local Blockchain
 
@@ -169,11 +174,11 @@ If students have already completed the teacher's earlier materials, most of the 
 
 + Deploy `BasicNft`:
   ```bash
-  forge script script/DeployBasicNft.s.sol:DeployBasicNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
+  forge script script/exercises/DeployBasicNft.s.sol:DeployBasicNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
   ```
 + Deploy `MoodNft`:
   ```bash
-  forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
+  forge script script/exercises/DeployMoodNft.s.sol:DeployMoodNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
   ```
 
 ## Use the Makefile
@@ -189,9 +194,23 @@ If students have already completed the teacher's earlier materials, most of the 
   make deployMood
   make mintMoodNft
   make flipMoodNft TOKEN_ID=0
+  make deployQuest
   ```
 + If you are on Windows, run these from `Git Bash`, not plain PowerShell.
 + The `install` target in the `Makefile` uses the same submodule-based dependency setup described above.
+
+## Run the Optional Frontend
+
++ The frontend is used by the Pokemon demo and Sepolia Quest extension.
++ Start it with:
+  ```bash
+  node frontend/server.js
+  ```
++ Then open:
+  ```bash
+  http://127.0.0.1:5173
+  ```
++ For Sepolia verification, make sure `.env` contains `SEPOLIA_RPC_URL`.
 
 ## Optional Environment Variables
 
@@ -249,6 +268,10 @@ If students have already completed the teacher's earlier materials, most of the 
   make deploy-sepolia
   make mint-sepolia
   ```
++ For the optional Sepolia Quest contracts, use:
+  ```bash
+  make deployQuest-sepolia
+  ```
 + These targets use:
 + `SEPOLIA_RPC_URL`
 + `PRIVATE_KEY`
@@ -269,6 +292,7 @@ If students have already completed the teacher's earlier materials, most of the 
   make deployMood ARGS="--network sepolia"
   make mintMoodNft ARGS="--network sepolia"
   make flipMoodNft TOKEN_ID=0 ARGS="--network sepolia"
+  make deployQuest ARGS="--network sepolia"
   make update-base-uri NEW_IPFS_BASE_TOKEN_URI=ipfs://<NEW_FOLDER_CID>/ ARGS="--network sepolia"
   ```
 + This is useful because it gives one consistent pattern for both local and testnet execution.

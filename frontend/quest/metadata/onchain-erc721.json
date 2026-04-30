@@ -1,0 +1,9 @@
+{
+  "name": "Sepolia Quest Card - Onchain ERC721",
+  "description": "This final form card evolved after the student deployed and verified an onchain metadata ERC721 on Sepolia.",
+  "image": "http://127.0.0.1:5173/quest/assets/onchain-erc721.svg",
+  "attributes": [
+    { "trait_type": "Quest Stage", "value": "Final" },
+    { "trait_type": "Completed Challenge", "value": "Onchain ERC721" }
+  ]
+}

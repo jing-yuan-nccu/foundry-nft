@@ -1,0 +1,10 @@
+{
+  "name": "Bulbasaur - Baby",
+  "description": "A young grass Pokemon from the Growth Gacha collection.",
+  "image": "http://127.0.0.1:5173/pokemon/assets/bulbasaur-baby.svg",
+  "attributes": [
+    { "trait_type": "Species", "value": "Bulbasaur" },
+    { "trait_type": "Stage", "value": "Baby" },
+    { "trait_type": "Element", "value": "Grass" }
+  ]
+}

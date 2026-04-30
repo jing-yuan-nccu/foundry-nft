@@ -1,6 +1,6 @@
 -include .env
 
-.PHONY: all test clean deploy fund help install snapshot format anvil zktest mint deploy-sepolia mint-sepolia update-base-uri
+.PHONY: all test clean deploy fund help install snapshot format anvil zktest mint deploy-sepolia mint-sepolia update-base-uri deployQuest deployQuest-sepolia
 
 DEFAULT_ANVIL_KEY := 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 DEFAULT_ZKSYNC_LOCAL_KEY := 0x7726827caac94a7f9e1b160f7ea819f172f7b6f9d2a97f992c38edeab82d4110
@@ -40,36 +40,42 @@ ifeq ($(findstring --network sepolia,$(ARGS)),--network sepolia)
 endif
 
 deploy:
-	@forge script script/DeployBasicNft.s.sol:DeployBasicNft $(NETWORK_ARGS)
+	@forge script script/exercises/DeployBasicNft.s.sol:DeployBasicNft $(NETWORK_ARGS)
 
 mint:
-	@forge script script/Interactions.s.sol:MintBasicNft ${NETWORK_ARGS}
+	@forge script script/exercises/Interactions.s.sol:MintBasicNft ${NETWORK_ARGS}
 
 update-base-uri:
 	@if [ -z "$(NEW_IPFS_BASE_TOKEN_URI)" ]; then echo "NEW_IPFS_BASE_TOKEN_URI is required. Usage: make update-base-uri NEW_IPFS_BASE_TOKEN_URI=ipfs://<CID>/"; exit 1; fi
-	@NEW_IPFS_BASE_TOKEN_URI=$(NEW_IPFS_BASE_TOKEN_URI) forge script script/Interactions.s.sol:UpdateBasicNftBaseUri $(NETWORK_ARGS)
+	@NEW_IPFS_BASE_TOKEN_URI=$(NEW_IPFS_BASE_TOKEN_URI) forge script script/exercises/Interactions.s.sol:UpdateBasicNftBaseUri $(NETWORK_ARGS)
 
 deploy-sepolia:
-	@forge script script/DeployBasicNft.s.sol:DeployBasicNft $(SEPOLIA_ARGS)
+	@forge script script/exercises/DeployBasicNft.s.sol:DeployBasicNft $(SEPOLIA_ARGS)
 
 mint-sepolia:
-	@forge script script/Interactions.s.sol:MintBasicNft $(SEPOLIA_ARGS)
+	@forge script script/exercises/Interactions.s.sol:MintBasicNft $(SEPOLIA_ARGS)
 
 deploy-ethereum:
-	@forge script script/DeployBasicNft.s.sol:DeployBasicNft $(ETHEREUM_ARGS)
+	@forge script script/exercises/DeployBasicNft.s.sol:DeployBasicNft $(ETHEREUM_ARGS)
 
 mint-ethereum:
-	@forge script script/Interactions.s.sol:MintBasicNft $(ETHEREUM_ARGS)
+	@forge script script/exercises/Interactions.s.sol:MintBasicNft $(ETHEREUM_ARGS)
+
+deployQuest:
+	@forge script script/quest/DeployLearningQuest.s.sol:DeployLearningQuest $(NETWORK_ARGS)
+
+deployQuest-sepolia:
+	@forge script script/quest/DeployLearningQuest.s.sol:DeployLearningQuest $(SEPOLIA_ARGS)
 
 deployMood:
-	@forge script script/DeployMoodNft.s.sol:DeployMoodNft $(NETWORK_ARGS)
+	@forge script script/exercises/DeployMoodNft.s.sol:DeployMoodNft $(NETWORK_ARGS)
 
 mintMoodNft:
-	@forge script script/Interactions.s.sol:MintMoodNft $(NETWORK_ARGS)
+	@forge script script/exercises/Interactions.s.sol:MintMoodNft $(NETWORK_ARGS)
 
 flipMoodNft:
 	@if [ -z "$(TOKEN_ID)" ]; then echo "TOKEN_ID is required. Usage: make flipMoodNft TOKEN_ID=0"; exit 1; fi
-	@TOKEN_ID=$(TOKEN_ID) forge script script/Interactions.s.sol:FlipMoodNft $(NETWORK_ARGS)
+	@TOKEN_ID=$(TOKEN_ID) forge script script/exercises/Interactions.s.sol:FlipMoodNft $(NETWORK_ARGS)
 
 zkdeploy: 
 	@forge create src/OurToken.sol:OurToken --rpc-url http://127.0.0.1:8011 --private-key $(DEFAULT_ZKSYNC_LOCAL_KEY) --legacy --zksync

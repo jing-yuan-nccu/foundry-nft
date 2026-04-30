@@ -3,8 +3,8 @@
 pragma solidity ^0.8.18;
 
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
-import {DeployMoodNft} from "../script/DeployMoodNft.s.sol";
-import {MoodNft} from "../src/MoodNft.sol";
+import {DeployMoodNft} from "script/exercises/DeployMoodNft.s.sol";
+import {MoodNft} from "src/exercises/MoodNft.sol";
 import {Test} from "forge-std/Test.sol";
 import {Vm} from "forge-std/Vm.sol";
 import {ZkSyncChainChecker} from "lib/foundry-devops/src/ZkSyncChainChecker.sol";

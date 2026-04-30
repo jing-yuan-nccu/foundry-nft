@@ -28,10 +28,10 @@ It should be studied after:
   ```
   code .
   ```
-+ Examine the contract file `src/MoodNft.sol`.
-+ Examine the deployment script `script/DeployMoodNft.s.sol`.
-+ Examine the interaction script `script/Interactions.s.sol`.
-+ Examine the test file `test/MoodNftTest.t.sol`.
++ Examine the contract file `src/exercises/MoodNft.sol`.
++ Examine the deployment script `script/exercises/DeployMoodNft.s.sol`.
++ Examine the interaction script `script/exercises/Interactions.s.sol`.
++ Examine the test file `test/exercises/MoodNftTest.t.sol`.
 + Build the project.
   ```
   forge build
@@ -51,7 +51,7 @@ It should be studied after:
 + Open another Git Bash or terminal in the same project folder.
 + Deploy the contract using the deployment script.
   ```
-  forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
+  forge script script/exercises/DeployMoodNft.s.sol:DeployMoodNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
   ```
 + Alternatively, use the Makefile target.
   ```
@@ -61,7 +61,7 @@ It should be studied after:
 ## Interact with the MoodNft Contract on Anvil
 + Mint one `MoodNft`.
   ```
-  forge script script/Interactions.s.sol:MintMoodNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
+  forge script script/exercises/Interactions.s.sol:MintMoodNft --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast
   ```
 + Alternatively, use the Makefile target.
   ```

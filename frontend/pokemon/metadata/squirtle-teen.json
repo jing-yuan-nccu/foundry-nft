@@ -1,0 +1,10 @@
+{
+  "name": "Squirtle - Teen",
+  "description": "A growing water Pokemon from the Growth Gacha collection.",
+  "image": "http://127.0.0.1:5173/pokemon/assets/squirtle-teen.svg",
+  "attributes": [
+    { "trait_type": "Species", "value": "Squirtle" },
+    { "trait_type": "Stage", "value": "Teen" },
+    { "trait_type": "Element", "value": "Water" }
+  ]
+}

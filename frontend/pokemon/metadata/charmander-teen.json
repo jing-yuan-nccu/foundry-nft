@@ -1,0 +1,10 @@
+{
+  "name": "Charmander - Teen",
+  "description": "A growing fire Pokemon from the Growth Gacha collection.",
+  "image": "http://127.0.0.1:5173/pokemon/assets/charmander-teen.svg",
+  "attributes": [
+    { "trait_type": "Species", "value": "Charmander" },
+    { "trait_type": "Stage", "value": "Teen" },
+    { "trait_type": "Element", "value": "Fire" }
+  ]
+}

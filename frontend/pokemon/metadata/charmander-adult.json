@@ -1,0 +1,10 @@
+{
+  "name": "Charmander - Adult",
+  "description": "A fully grown fire Pokemon from the Growth Gacha collection.",
+  "image": "http://127.0.0.1:5173/pokemon/assets/charmander-adult.svg",
+  "attributes": [
+    { "trait_type": "Species", "value": "Charmander" },
+    { "trait_type": "Stage", "value": "Adult" },
+    { "trait_type": "Element", "value": "Fire" }
+  ]
+}

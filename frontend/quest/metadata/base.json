@@ -1,0 +1,9 @@
+{
+  "name": "Sepolia Quest Card - Base",
+  "description": "A learning quest card that evolves as the student completes Sepolia deployment challenges.",
+  "image": "http://127.0.0.1:5173/quest/assets/base.svg",
+  "attributes": [
+    { "trait_type": "Quest Stage", "value": "Base" },
+    { "trait_type": "Completed Challenge", "value": "None" }
+  ]
+}

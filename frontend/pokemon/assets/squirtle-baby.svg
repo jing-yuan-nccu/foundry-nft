@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#e7f8ff"/><stop offset="1" stop-color="#75c8ee"/></linearGradient>
+    <linearGradient id="skin" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#79d8ff"/><stop offset="1" stop-color="#2d92d1"/></linearGradient>
+    <linearGradient id="shell" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#c7864e"/><stop offset="1" stop-color="#6f3d24"/></linearGradient>
+    <linearGradient id="belly" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff0b8"/><stop offset="1" stop-color="#ddb05f"/></linearGradient>
+    <linearGradient id="eye" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7ee9ff"/><stop offset="1" stop-color="#145d86"/></linearGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#bg)"/>
+  <circle cx="130" cy="128" r="34" fill="#fff" opacity=".44"/>
+  <path d="M219 335c-58-34-68-92-34-136 44 34 73 80 88 134Z" fill="url(#shell)" stroke="#173149" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M202 233c25 32 43 66 55 100M190 293c24 11 49 15 74 10" fill="none" stroke="#f0bd73" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="320" cy="408" rx="102" ry="136" fill="url(#skin)" stroke="#173149" stroke-width="15"/>
+  <ellipse cx="320" cy="435" rx="66" ry="88" fill="url(#belly)" stroke="#173149" stroke-width="11"/>
+  <path d="M282 387c24 20 52 20 76 0M276 433c30 20 58 20 88 0" fill="none" stroke="#bf8946" stroke-width="7" stroke-linecap="round"/>
+  <path d="M246 378c-42 24-88 14-121-22 46 0 76-20 96-52Z" fill="url(#skin)" stroke="#173149" stroke-width="13" stroke-linejoin="round"/>
+  <ellipse cx="126" cy="360" rx="28" ry="21" fill="url(#skin)" stroke="#173149" stroke-width="10"/>
+  <ellipse cx="111" cy="376" rx="7" ry="12" fill="#e9fbff" transform="rotate(34 111 376)"/>
+  <ellipse cx="132" cy="380" rx="7" ry="12" fill="#e9fbff" transform="rotate(10 132 380)"/>
+  <path d="M394 378c42 24 88 14 121-22-46 0-76-20-96-52Z" fill="url(#skin)" stroke="#173149" stroke-width="13" stroke-linejoin="round"/>
+  <ellipse cx="514" cy="360" rx="28" ry="21" fill="url(#skin)" stroke="#173149" stroke-width="10"/>
+  <ellipse cx="529" cy="376" rx="7" ry="12" fill="#e9fbff" transform="rotate(-34 529 376)"/>
+  <ellipse cx="508" cy="380" rx="7" ry="12" fill="#e9fbff" transform="rotate(-10 508 380)"/>
+  <path d="M252 512c-48 34-100 38-146 10 37 45 110 58 168 14Z" fill="url(#skin)" stroke="#173149" stroke-width="13" stroke-linejoin="round"/>
+  <ellipse cx="188" cy="536" rx="9" ry="16" fill="#e9fbff" transform="rotate(66 188 536)"/>
+  <ellipse cx="218" cy="540" rx="9" ry="16" fill="#e9fbff" transform="rotate(80 218 540)"/>
+  <path d="M388 512c48 34 100 38 146 10-37 45-110 58-168 14Z" fill="url(#skin)" stroke="#173149" stroke-width="13" stroke-linejoin="round"/>
+  <ellipse cx="452" cy="536" rx="9" ry="16" fill="#e9fbff" transform="rotate(-66 452 536)"/>
+  <ellipse cx="422" cy="540" rx="9" ry="16" fill="#e9fbff" transform="rotate(-80 422 540)"/>
+  <path d="M404 430c48 13 78 44 88 90-38-5-70-25-96-60Z" fill="url(#skin)" stroke="#173149" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M420 470c27 2 44 16 42 35-2 16-18 22-37 15 17-7 17-23-7-31Z" fill="#66ccf5" stroke="#173149" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M218 238c0-70 52-120 124-116 66 4 108 48 108 108 0 76-58 132-133 132-61 0-99-52-99-124Z" fill="url(#skin)" stroke="#173149" stroke-width="15"/>
+  <ellipse cx="282" cy="258" rx="25" ry="37" fill="#173149"/>
+  <ellipse cx="380" cy="258" rx="25" ry="37" fill="#173149"/>
+  <ellipse cx="288" cy="248" rx="10" ry="20" fill="url(#eye)"/>
+  <ellipse cx="386" cy="248" rx="10" ry="20" fill="url(#eye)"/>
+  <circle cx="293" cy="235" r="5.5" fill="#fff"/>
+  <circle cx="391" cy="235" r="5.5" fill="#fff"/>
+  <path d="M302 318c18 20 38 20 56 0" fill="none" stroke="#173149" stroke-width="11" stroke-linecap="round"/>
+  <text x="320" y="594" text-anchor="middle" font-family="Arial" font-size="34" font-weight="800" fill="#173149">Squirtle</text>
+</svg>

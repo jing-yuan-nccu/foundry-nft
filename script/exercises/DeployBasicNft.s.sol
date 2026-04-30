@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 import {Script} from "forge-std/Script.sol";
-import {BasicNft} from "src/BasicNft.sol";
+import {BasicNft} from "src/exercises/BasicNft.sol";
 
 contract DeployBasicNft is Script {
     string public constant DEFAULT_BASE_TOKEN_URI = "ipfs://YOUR_METADATA_FOLDER_CID/";
